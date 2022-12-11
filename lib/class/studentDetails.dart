@@ -94,6 +94,16 @@ class _studentDetailsState extends State<studentDetails> {
                   });
                 },
               ),
+              RadioListTile(
+                title: const Text("other"),
+                value: 'female',
+                groupValue: _val,
+                onChanged: (val) {
+                  setState(() {
+                    _val = val;
+                  });
+                },
+              ),
               //label
               TextFormField(
                 controller: _AddressController,

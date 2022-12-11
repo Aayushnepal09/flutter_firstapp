@@ -1,6 +1,6 @@
+import 'package:firstapp/screen/student_screen.dart';
 import 'package:flutter/material.dart';
 // import 'class/ColumnScreen.dart';
-import 'class/RowsColumn.dart';
 
 void main() {
   runApp(
@@ -9,7 +9,8 @@ void main() {
         title: 'Flutter for class',
         initialRoute: '/',
         routes: {
-          '/': (context) => const RowsColumn(),
+          '/': (context) => const StudentDetailsScreen(),
+          // '/': (context) => const RowsColumn(),
           // '/': (context) => const SnackBarScreen(),
           // '/': (context) => const flexible(),
           //'/': (context) => const ArithmeticScreen(),

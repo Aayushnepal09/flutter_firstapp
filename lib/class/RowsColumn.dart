@@ -12,7 +12,7 @@ class _RowsColumnState extends State<RowsColumn> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.purple,
         title: const Text('Rows and column'),
       ),
       body: Column(
