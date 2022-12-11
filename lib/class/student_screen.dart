@@ -1,7 +1,6 @@
 import 'package:dropdown_plus/dropdown_plus.dart';
 import 'package:flutter/material.dart';
-
-import '../model/student.dart';
+import '/model/student.dart';
 
 class StudentDetailsScreen extends StatefulWidget {
   const StudentDetailsScreen({Key? key}) : super(key: key);
@@ -203,7 +202,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     child: const Text('Display Student'),
                     onPressed: () {
                       // Pass data from one screen to another screen
-                      Navigator.pushNamed(context, '/displayStudent.dart',
+                      Navigator.pushNamed(context, '/displayStudent',
                           arguments: lstStudents);
                     },
                   ),

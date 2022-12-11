@@ -1,6 +1,6 @@
-import 'package:firstapp/screen/student_screen.dart';
 import 'package:flutter/material.dart';
-// import 'class/ColumnScreen.dart';
+import 'class/cardScreen.dart';
+// import 'class/display.dart';
 
 void main() {
   runApp(
@@ -9,11 +9,17 @@ void main() {
         title: 'Flutter for class',
         initialRoute: '/',
         routes: {
-          '/': (context) => const StudentDetailsScreen(),
-          // '/': (context) => const RowsColumn(),
+          '/': (context) => const CardScreen(),
+          //'/': (context) => const RowsColumn(),
           // '/': (context) => const SnackBarScreen(),
           // '/': (context) => const flexible(),
-          //'/': (context) => const ArithmeticScreen(),
+          //'/': (context) => const ImageScreen(),
+          //'/': (context) => const StudentDetailsScreen(),
+          //'/displayStudent': ((context) => const studentDisplay()),
+          // '/': (context) => const listTiles(),
+          //'/': (context) => const columnScreen(),
+          // '/': (context) => const ArithmeticScreen(),
+          //'/': (context) => const RadionButton(),
           // '/Arithemticoutput': (context) => const ArithmeticOutputScreen(),
           // '/simpleInterest': (context) => const simpleInterest(),
         }),
