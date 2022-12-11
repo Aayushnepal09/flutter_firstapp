@@ -203,7 +203,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     child: const Text('Display Student'),
                     onPressed: () {
                       // Pass data from one screen to another screen
-                      Navigator.pushNamed(context, '/displayStudent',
+                      Navigator.pushNamed(context, '/displayStudent.dart',
                           arguments: lstStudents);
                     },
                   ),
