@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'class/display.dart';
 // import 'class/grid_screen.dart';
-import 'class/calculatorApp.dart';
+// import 'class/calculatorApp.dart';
+import 'class/dataTable_Screen.dart';
 
 void main() {
   runApp(
@@ -10,7 +11,8 @@ void main() {
         title: 'Flutter for class',
         initialRoute: '/',
         routes: {
-          '/': (context) => const CalculatorScreen(),
+          '/': (context) => const datatableScreen()
+          // '/': (context) => const CalculatorScreen(),
           // '/': (context) => const grid_Screen(),
           // '/': (context) => const CardScreen(),
           //'/': (context) => const RowsColumn(),
